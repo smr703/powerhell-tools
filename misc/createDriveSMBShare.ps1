@@ -1,5 +1,5 @@
 # Storage account. You’ll need the following information:
-#
+# new line
 # Storage Account Name: The name of your Azure Storage account.
 # File Share Name: The name of the file share in the Storage account.
 # Storage Account Key: The access key for the storage account.
@@ -11,7 +11,7 @@
 $StorageAccountName = "<YourStorageAccountName>" # Replace with your storage account name
 $FileShareName = "<YourFileShareName>"          # Replace with your file share name
 $StorageAccountKey = "<YourStorageAccountKey>"  # Replace with your storage account key
-$LocalDriveLetter = "Z:"                        # Replace with desired drive letter
+$LocalDriveLetter = "F:"                        # Replace with desired drive letter
 
 # Construct the UNC path for the SMB file share
 $UNCPath = "\\$StorageAccountName.file.core.windows.net\$FileShareName"
